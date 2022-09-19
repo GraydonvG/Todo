@@ -46,7 +46,6 @@ li > span {
   text-align: left;
   align-self: flex-start;
   font-size: 1.5rem;
-  width: 100%;
 }
 
 .done {
