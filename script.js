@@ -33,9 +33,9 @@ const addItemKeypress = (event) => {
   }
 };
 
-const removeParent = (eForEvent) => eForEvent.target.parentNode.remove();
+const removeParent = (event) => event.target.parentNode.remove();
 
-const toggleDone = (anotherEvent) => anotherEvent.target.classList.toggle("done");
+const toggleDone = (event) => event.target.classList.toggle("done");
 
 button.addEventListener("click", addItemBtn);
 userinput.addEventListener("keypress", addItemKeypress);
